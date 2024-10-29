@@ -4,11 +4,22 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta charset="UTF-8">
             <title>My Web Page</title>
+            <!-- embedded/internal styling : style element -->
+            <style>
+                h1 {
+                    color: blue;
+                }
+            </style>
+            <!-- external styling : link tag -->
+             <link type="text/css" rel="stylesheet" href="style.css">
         </head>
         <body>
             <header>
                 <h1>My Web Page</h1>
-                <p>This is an example of a paragraph</p>
+            </header>
+            <!-- inline styling: style attribute -->
+                <p style="color: red;"> This is an example of a paragraph</p>
+                <p id="p two"> This is an example of a paragraph</p>
                 <form>
                     <label for="Full-name">Full Name:</label>
                     <input type="text" id="Full-name" name="Full-name">

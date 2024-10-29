@@ -1,0 +1,41 @@
+
+
+selector {
+    property: value; //color, front-size, background, border 
+    property: value;
+    property: value;
+    property: value;
+}
+
+//universal selector
+* { }
+
+//element selector
+p { } img { } h1 { } table { }
+
+//class selector
+.home-section { }
+
+//id selector 
+#home { }
+
+//attribute selector
+a[href="https://google.com"] {
+    property: value;
+}
+
+// group selectors
+p, h1, h2, h3 { }
+
+// pseudo-class selector
+a :hover { }
+input :focus { }
+
+
+PRIORITY
+
+1. inline style
+2. id seclector 
+3. class selector, attribute, pseudo-class
+4. element selector 
+5. universal selector 
